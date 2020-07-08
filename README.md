@@ -3,7 +3,7 @@
 	 分享一下易盾的文字点选识别，其中包括验证码模型，和7w+文字数据集，目前识别率在80左右，当作一个小练习，后续有数据集的同学愿意分享，可以接着训练该模型，由于模型和数据集比较大，就分享在QQ群文件里了，有需要的可以进群一起交流！
 #### About Captcha:
 	网易易盾、极验等主流验证码破解。
-	已更新极验文字点选、极验滑动、极验语序、极验九宫格、易盾文字、易盾图标、易盾滑动、易盾乱序还原拼图、税务红黄蓝验证码、梦幻西游8位汉字识别、多种字符验证码。
+	已更新极验文字点选、极验滑动、极验语序、极验九宫格、极验空间推理、极验图标、易盾文字、易盾图标、易盾滑动、易盾乱序还原拼图、税务红黄蓝验证码、梦幻西游8位汉字识别、百度旋转、腾讯滑动 多种字符验证码。
 #### 其验证码类型图片已经放到captcha目录下!
 #### Warning！
 请保证本项目仅用于研究学习！感谢配合支持！
@@ -34,7 +34,7 @@ To learn about basic! learn it with us! QQ群:1126310403
   - [x] pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
   - [x] pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
   - [x] 本套识别系统环境搭建十分简单！如果使用cuda的高级玩家，把pytorch的版本换下就ok
-  - [x] [pytorch环境安装链接](https://pytorch.org/)
+  - [x] [pytorch环境安装链接](https://pytorch.org/) 注意下先安装torch,再装其他依赖，省事儿！
   - [x] 安装完毕！启动captcha_server.py 就ok!调用实例在api_requests.py里面！
   - [x] 由于方便大家下载模型和数据集！已经上传至QQ群：1126310403 群文件！
   
